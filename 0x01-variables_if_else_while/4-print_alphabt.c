@@ -10,16 +10,17 @@
 
 int main(void)
 {
-	int n = 97;
+	char c;
 
-	while (n <= 122)
+	c = 'a';
+
+	while (c <= 'z')
 	{
-		if (n == 101 || n == 113)
+		if ((c != 'q' && c != 'e') && c <= 'z')
 		{
-			continue;
+			putchar(c);
 		}
-		putchar(n);
-		n++;
+		c++;
 	}
 	return (0);
 }
