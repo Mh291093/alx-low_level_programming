@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: A C program which prints by printf function
+ * Description: A C program which prints from a to z
  *
  * Return: always 0 (success)
 */
@@ -11,6 +11,7 @@
 int main(void)
 {
 	int n = 97;
+
 	while (n <= 122)
 	{
 		putchar(n);
