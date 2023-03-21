@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Description: A C program
+ * print_alphabet: Make the alphabet from a to z
  *
  * Return: void
 */
@@ -11,6 +9,7 @@
 void print_alphabet(void)
 {
 	char c;
+
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
