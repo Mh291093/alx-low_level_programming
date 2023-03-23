@@ -5,22 +5,22 @@
  *
  * @n: number times
  *
- * Return:
+ * Return: empty
  */
 
 void print_line(int n)
 {
-	int lnchr;
+	int x;
 
 	if (n <= 0)
 	{
-		_ptchar('\n');
+		_putchar('\n');
 	}
 	else
 	{
-		for (lnchr = 1; lnchr <= n; lnchr++)
+		for (x = 0; x < n; x++)
 		{
-			_putchar('_');
+			_putchar(95);
 		}
 		_putchar('\n');
 	}
