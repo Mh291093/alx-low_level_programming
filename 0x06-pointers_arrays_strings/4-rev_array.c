@@ -11,7 +11,8 @@
 
 void reverse_array(int *a, int n)
 {
-	int i, t;
+	int i;
+	int t;
 
 	for (i = 0, i < n--; i++)
 	{
