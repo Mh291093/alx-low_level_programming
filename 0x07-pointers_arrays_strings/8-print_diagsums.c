@@ -20,6 +20,6 @@ void print_diagsums(int *a, int size)
 		s2 += a[size - i - 1];
 		a += size;
 	}
-	printf("%d", s1);
+	printf("%d, ", s1);
 	printf("%d\n", s2);
 }
