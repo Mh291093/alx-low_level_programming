@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_diagsums - a function
@@ -7,7 +8,7 @@
  *
  * @size: input
  *
- * Return: pointer a
+ * Return: void
  */
 
 void print_diagsums(int *a, int size)
